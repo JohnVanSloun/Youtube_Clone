@@ -1,0 +1,56 @@
+
+
+/* Header*/
+
+header {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+header div img {
+    width: 80px;
+    margin: 4px 0 4px 0;
+}
+
+.nav-left {
+
+}
+
+.nav-left .material-icons.md-18 {
+    font-size: 25px;
+    margin: 25px 15px;
+}
+
+.search {
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.search-box input {
+    height: 27px;
+    width: 300px;
+}
+
+.search-button {
+    font-size: 15px;
+}
+
+.nav-right {
+ align-items: center;
+ display: flex;
+}
+
+.nav-right .material-icons.md-18 {
+    font-size: 25px;
+    margin: 25px 5px;
+}
+
+.profile-img {
+    margin: 0px 10px 2px 0;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
