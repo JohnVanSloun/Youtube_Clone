@@ -3,7 +3,7 @@
 /* Header*/
 
 header {
-    background-color: grey;
+    background-color: #f5f3f0;
     display: flex;
     align-items: center;
 }
@@ -53,4 +53,63 @@ header div img {
     border-radius: 50%;
     height: 35px;
     width: 35px;
+}
+
+
+/* Body-Content */
+
+.body-content {
+    display: flex;
+}
+
+
+
+/* Main */
+
+main {
+    width: 75%;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: white;
+}
+
+.vid-label {
+    margin: 10px 30px 0 142px;
+    display: flex;
+}
+
+.share{
+    display: inline;
+}
+
+.share-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.playlist {
+    display: inline;
+}
+
+.save {
+    height: 35px;
+    width: 35px;
+}
+
+.three-dot {
+    height: 35px;
+    width: 35px;
+}
+
+.video {
+    margin: 30px 30px 0 10%;
+}
+
+/* Aside */
+
+aside {
+    width: 24%;
+    margin: 30px 0 0 0 ;
+    display: inline-block;
+    background-color: red;
 }
